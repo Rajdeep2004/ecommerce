@@ -1,0 +1,40 @@
+{
+    "name": "ecommerce-app-2023",
+    "version": "1.0.0",
+    "description": "ecommerce rest api",
+    "keywords": [],
+    "homepage": "https://github.com/Rajdeep2004/ECore#readme",
+    "bugs": {
+        "url": "https://github.com/Rajdeep2004/ECore/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rajdeep2004/ECore.git"
+    },
+    "license": "MIT",
+    "author": "rajdeep dutta",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix ./client",
+        "dev": "concurrently \"npm run start\" \"npm run client\""
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "braintree": "^3.33.1",
+        "colors": "^1.4.0",
+        "concurrently": "^9.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2",
+        "express-formidable": "^1.2.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.13.8",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.20",
+        "react-icons": "^4.7.1",
+        "slugify": "^1.6.6"
+    }
+}
