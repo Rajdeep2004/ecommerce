@@ -1,0 +1,1 @@
+services:\n  - type: web\n    name: ecommerce\n    env: node\n    plan: free\n    buildCommand: npm install && npm run build\n    startCommand: npm run start
